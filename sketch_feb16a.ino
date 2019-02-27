@@ -1,5 +1,4 @@
 
-int motor = 3;
 int buttonState1 =1;
 int buttonState2= 0;
 int length = 15; 
@@ -19,7 +18,7 @@ int speaker2 = A2;
 
 
 void setup() {
-  analogWrite(motor, OUTPUT);
+
   
   pinMode(button1, INPUT);
   pinMode(button2, INPUT);
